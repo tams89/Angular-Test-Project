@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GuardedWidgetComponent } from './guarded-widget/guarded-widget.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GuardedWidgetComponent
   ],
   imports: [
     BrowserModule,
